@@ -1,12 +1,8 @@
 package com.whitespace;
 
 import com.whitespace.reader.GraphInputFileReader;
-import org.apache.commons.cli.*;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
 public class WhitespaceApplication {
     private final GraphInputFileReader graphInputFileReader = new GraphInputFileReader();
