@@ -1,8 +1,8 @@
 package com.whitespace.reader;
 
-import com.whitespace.Edge;
-import com.whitespace.Graph;
-import com.whitespace.Node;
+import com.whitespace.model.Edge;
+import com.whitespace.model.Graph;
+import com.whitespace.model.Node;
 
 import java.io.BufferedReader;
 import java.io.IOException;

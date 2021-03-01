@@ -1,5 +1,6 @@
 package com.whitespace;
 
+import com.whitespace.model.Graph;
 import com.whitespace.reader.GraphInputFileReader;
 import org.junit.jupiter.api.Test;
 

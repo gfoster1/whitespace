@@ -1,4 +1,4 @@
-package com.whitespace;
+package com.whitespace.model;
 
 import lombok.Value;
 

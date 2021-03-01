@@ -1,5 +1,8 @@
 package com.whitespace;
 
+import com.whitespace.model.Edge;
+import com.whitespace.model.Graph;
+import com.whitespace.model.Node;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

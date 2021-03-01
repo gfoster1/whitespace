@@ -1,5 +1,8 @@
 package com.whitespace;
 
+import com.whitespace.model.Edge;
+import com.whitespace.model.Graph;
+import com.whitespace.model.Node;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

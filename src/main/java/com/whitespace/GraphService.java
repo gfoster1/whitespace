@@ -1,5 +1,7 @@
 package com.whitespace;
 
+import com.whitespace.model.Edge;
+
 import java.util.List;
 
 public interface GraphService<T> {
