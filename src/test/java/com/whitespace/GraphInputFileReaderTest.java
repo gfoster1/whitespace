@@ -16,7 +16,7 @@ class GraphInputFileReaderTest {
         String separator = System.getProperty("file.separator");
         Graph graph = graphInputFileReader.readFile(separator + "TestGraph.txt");
         assertThat(graph.getNodes().size()).isEqualTo(5);
-        assertThat(graph.getVertices().size()).isEqualTo(9);
+        assertThat(graph.getEdges().size()).isEqualTo(9);
     }
 
     @Test
@@ -24,6 +24,6 @@ class GraphInputFileReaderTest {
         String separator = System.getProperty("file.separator");
         Graph graph = graphInputFileReader.readFile(separator + "ConstrainedTestGraph.txt");
         assertThat(graph.getNodes().size()).isEqualTo(2);
-        assertThat(graph.getVertices().size()).isEqualTo(1);
+        assertThat(graph.getEdges().size()).isEqualTo(1);
     }
 }

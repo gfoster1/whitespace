@@ -27,7 +27,7 @@ public class GraphInputFileReader {
                 Node originNode = graph.getNodes().getOrDefault(origin, new Node(origin));
                 Node destinationNode = graph.getNodes().getOrDefault(destination, new Node(destination));
                 Edge edge = new Edge(distance, originNode, destinationNode);
-                graph.getVertices().add(edge);
+                graph.getEdges().add(edge);
                 graph.getNodes().put(origin, originNode);
                 graph.getNodes().put(destination, destinationNode);
             }

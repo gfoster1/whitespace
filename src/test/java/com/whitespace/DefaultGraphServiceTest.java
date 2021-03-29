@@ -25,18 +25,17 @@ class DefaultGraphServiceTest {
         graph.addNode(d);
         graph.addNode(e);
 
-        graph.getVertices().add(new Edge(5, a, b));
-        graph.getVertices().add(new Edge(4, b, c));
-        graph.getVertices().add(new Edge(5, a, d));
-        graph.getVertices().add(new Edge(8, d, c));
-        graph.getVertices().add(new Edge(7, a, e));
-        graph.getVertices().add(new Edge(8, c, d));
-        graph.getVertices().add(new Edge(6, d, e));
-        graph.getVertices().add(new Edge(2, c, e));
-        graph.getVertices().add(new Edge(3, e, b));
+        graph.getEdges().add(new Edge(5, a, b));
+        graph.getEdges().add(new Edge(4, b, c));
+        graph.getEdges().add(new Edge(5, a, d));
+        graph.getEdges().add(new Edge(8, d, c));
+        graph.getEdges().add(new Edge(7, a, e));
+        graph.getEdges().add(new Edge(8, c, d));
+        graph.getEdges().add(new Edge(6, d, e));
+        graph.getEdges().add(new Edge(2, c, e));
+        graph.getEdges().add(new Edge(3, e, b));
         defaultGraphService = new DefaultGraphService(graph);
     }
-
 
     @Test
     void pathToNonSelf_shortestPath_distanceIs9() {
